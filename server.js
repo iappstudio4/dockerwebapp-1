@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8082;
 // App
 const app = express();
 app.get('/', (req, res) => {
- res.send("hai")
+ res.send("hai checking")
  
 });
 
